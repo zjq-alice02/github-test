@@ -1,0 +1,17 @@
+# git 忽略清单：写在这里的文件不会被提交
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 密钥与本地配置 —— 这类文件绝对不能上传
+.env
+*.key
+credentials.json
+
+# 系统生成的垃圾文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
